@@ -60,48 +60,40 @@
 }
 
 .HTML {
-    width: 13vh;
+    width: 15.9vw;
     transition: all .2s ease-in-out;
-    @media only screen and (max-device-width: 480px) {
-        width: 9vh;
+    @media only screen and (min-device-width: 660px) {
+        width:7vw;
     }
+    @media only screen and (max-device-width: 480px) {
+        width: 15vw;
+    }
+    
 }
 
 .HTML:hover {
-    width:14vh;
+    width:8.9vw;
     @media only screen and (max-device-width: 480px) {
-        width:12vh;
+        width:12vw;
     }
 }
 
 .CSS {
-    width: 14vh;
+    width: 7.3vw;
     transition: all .2s ease-in-out;
-    @media only screen and (max-device-width: 480px) {
-        width: 10vh;
-    }
 }
 
 .CSS:hover {
-    width:15vh;
-    @media only screen and (max-device-width: 480px) {
-        width:13vh;
-    }
+    width:10.5vw;
 }
 
 .JS {
-    width: 13.9vh;
+    width: 14vw;
     transition: all .2s ease-in-out;
-    @media only screen and (max-device-width: 480px) {
-        width: 9.9vh;
-    }
 }
 
 .JS:hover {
-    width:14.9vh;
-    @media only screen and (max-device-width: 480px) {
-        width:12.9vh;
-    }
+    width: 17vw;
 }
 
 .Project1 {
@@ -129,8 +121,9 @@
 .name {
     font-size: 7vh;
     color:#DB7543;
-    @media only screen and (max-device-width: 480px) {
+    @media only screen and (max-device-width: 760px) {
         color:#d86126;
+        font-size: 7vw;
     }
 }
 
