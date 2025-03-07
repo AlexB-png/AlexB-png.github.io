@@ -89,23 +89,29 @@
     }
 }
 
-.typewriter {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    white-space: nowrap;
-    border-right: .15em solid orange; /* The typwriter cursor */
-    animation: 
-        typing 3.5s steps(40, end),
-        blink-caret .75s step-end infinite;
+.match {
+    background-color: #FCDE9C;
+    border: none;
 }
 
-  /* The typing effect */
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+.LinkText {
+    font-size: 3vh;
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
+dialog {
+    background-color: #ffe6af;
+    border-color: #ffd67c;
+}
+
+a:link {
+    color: #d86126;
+}
+
+a:visited {
+    color: #b63d00;
+}
+
+.PopupButton {
+    background-color: #eb9b73;
+    border: none;
 }
