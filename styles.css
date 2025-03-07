@@ -98,15 +98,20 @@
     font-size: 3vh;
 }
 
+@keyframes fadein{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
 dialog {
     background-color: #ffe6af;
     border-color: #ffd67c;
     aspect-ratio: 1/2;
-    transition: all .3s ease-in-out;
-
-    @starting-style {
-        transform: scaleX(0);
-    }
+    animation: fadein .25s ease-in-out;
 }
 
 a:link {
