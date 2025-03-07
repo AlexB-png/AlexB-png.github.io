@@ -101,6 +101,12 @@
 dialog {
     background-color: #ffe6af;
     border-color: #ffd67c;
+    aspect-ratio: 1/2;
+    transition: all .3s ease-in-out;
+
+    @starting-style {
+        transform: scaleX(0);
+    }
 }
 
 a:link {
