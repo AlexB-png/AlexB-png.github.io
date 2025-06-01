@@ -1,3 +1,3 @@
 # AlexB-png.github.io
 
-Thanks For Viewing The Source Cod Of My Website :)
+Thanks For Viewing The Source Code Of My Website :)
