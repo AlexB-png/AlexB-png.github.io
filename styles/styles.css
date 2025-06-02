@@ -1,6 +1,23 @@
-body {
+html, body {
+    height: 100%;
     margin: 0;
     background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    background-image: url('../resources/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    padding: .5rem;
+    background-color: rgb(24, 24, 24);
+    border-top: 2px solid rgb(85, 85, 85);
 }
 
 .center {
@@ -8,35 +25,14 @@ body {
     justify-content: center;
 }
 
-.Dark {
-    background-color: rgb(53, 53, 53);
-    padding: 10px;
-    margin: 0;
-    color: rgb(142, 175, 204);
+.TextInputBar {
+    border-radius: 50px;
+    height: 1vw;
+    background-color: rgb(94, 94, 94);
+    border: 1px solid rgb(138, 138, 138);
+    color: white;
 }
 
-.nothing {
-    margin: 0;
-}
-
-.LightDark {
-    background-color: rgb(119, 119, 119);
-}
-
-.parent {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.child {
-    display: inline-block;
-    padding: 1rem 1rem;
-    height: 100%;
-    max-width: 50%;
-}
-
-.lorem {
-    font-size: 25px;
-    color: rgb(223, 223, 223);
+.textDiv {
+    padding-left: 2vw;
 }
