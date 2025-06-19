@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="center">
+        <h1 class="title">Alex Brankin Portfolio</h1>
+    </div>
     <div class="wrapper">
         <div class="thisPc">
             <button onclick="layer1()">This Portfolio</button>
@@ -21,7 +24,7 @@
         </div>
 
         <div class="projectsList" id="layer3-projects">
-            <h1>Projects</h1>
+            <a href="">Projects</a>
         </div>
 
         <div class="pictures" id="layer2-2">
@@ -29,7 +32,7 @@
         </div>
 
         <div class="picturesList" id="layer3-pictures">
-            <h1>Pictures</h1>
+            <a href="">Pictures List</a>
         </div>
 
         <div class="dDrive" id="layer1-2">
@@ -37,11 +40,19 @@
         </div>
 
         <div class="aboutMe" id="aboutMe">
-            <button>About Me</button>
+            <button onclick="aboutShow()">About Me</button>
+        </div>
+
+        <div class="aboutMeList" id="aboutMeList">
+            <a href="">About Me</a>
         </div>
 
         <div class="contacts" id="contacts">
-            <button>Contacts</button>
+            <button onclick="contactShow()">Contacts</button>
+        </div>
+
+        <div class="contactsList" id="contactsList">
+            <a href="">How to reach me</a>
         </div>
     </div>
     <script src="./script.js"></script>

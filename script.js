@@ -23,8 +23,9 @@ function layer21() {
     document.getElementById("layer2-1").classList.toggle("show")
     document.getElementById("layer2-2").classList.toggle("show")
 
-    document.getElementById("layer2-1").classList.remove("show")
-    document.getElementById("layer2-2").classList.remove("show")
+    document.getElementById("layer3-projects").classList.remove("show")
+    document.getElementById("layer3-pictures").classList.remove("show")
+
 }
 
 function showProjects() {
