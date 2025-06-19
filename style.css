@@ -1,0 +1,113 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(135deg, #b6b6b6, #555555);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.cDrive {
+    display: none;
+    padding-left: 5%;
+}
+
+.cDrive.show {
+    display: block;
+}
+
+.dDrive {
+    display: none;
+    padding-left: 5%;
+}
+
+.dDrive.show {
+    display: block;
+}
+
+.cDrive, .dDrive {
+    padding-top: 2%;
+}
+
+.projects, .pictures {
+    display: none;
+    padding-left: 15%;
+    padding-top: 2%;
+}
+
+.projects.show, .pictures.show {
+    display: block;
+}
+
+.projectsList, .picturesList {
+    display: none;
+    padding-left: 30%;
+    padding-top: 2%;
+}
+
+.projectsList.show, .picturesList.show {
+    display: block;
+}
+
+.aboutMe, .contacts {
+    display: none;
+    padding-left: 15%;
+    padding-top: 2%;
+}
+
+.aboutMe.show, .contacts.show {
+    display: block;
+}
+
+button {
+    width: 150%;
+    height: 150%;
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;
+    border-color: #555555;
+}
+
+.aboutMeList {
+    display: none;
+    padding-left: 30%;
+    padding-top: 2%;
+}
+
+.aboutMeList.show, .contactsList.show {
+    display: block;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: rgb(61, 61, 61);
+}
+
+.contactsList {
+    display: none;
+    padding-left: 32%;
+    padding-top: 2%;
+}
+
+a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #444;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5em;
+    transition: background 0.3s;
+}
+
+a:hover {
+    background-color: #666;
+}
